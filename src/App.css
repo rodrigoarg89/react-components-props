@@ -1,0 +1,52 @@
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+
+}
+
+ul {
+  list-style: none;
+  margin-left: -38px;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: rgb(216, 215, 223);
+  padding: 10px 0;
+  border-radius: 10px;
+  margin: auto;
+  color: black;
+  gap: 10px;
+}
+
+.blue {
+  background: rgb(105, 105, 244);
+}
+.yellow {
+  background: rgb(240, 240, 29);
+}
+
+.orange {
+  background: rgb(246, 177, 49);
+}
+
+.green {
+  background: rgb(27, 231, 27);
+}
+
+.red {
+  background: rgb(242, 69, 69);
+}
